@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mozilla CSS Getting Started - JavaScript demonstration</title>
+	<script type="text/javascript" src="script5.js"></script>
+</head>
+<body>
+	<h3> Indexs  </h3>
+	<div id="left">
+		<!-- TradingView Widget BEGIN -->
+		<script  id="main" type="text/javascript" src="https://d33t3vvu2t2yu5.cloudfront.net/tv.js"></script>
+		<script type="text/javascript">		
+			new TradingView.widget({
+				"width": 898,
+				"height": 510,
+				"symbol": "FX:UK100",
+				"interval": "D",
+				"timezone": "Etc/UTC",
+				"theme": "White",
+				"style": "1",
+				"toolbar_bg": "#f1f3f6",
+				"allow_symbol_change": true,
+				"hideideas": true,
+				"show_popup_button": true,
+				"popup_width": "1000",
+				"popup_height": "650"
+			});
+		</script>
+		<!-- TradingView Widget END -->
+	</div>
+
+
+	<div id="right">
+		<!-- TradingView Widget BEGIN -->
+		<script  id="main" type="text/javascript" src="https://d33t3vvu2t2yu5.cloudfront.net/tv.js"></script>
+		<script type="text/javascript">
+			new TradingView.widget({
+				"width": 898,
+				"height": 510,
+				"symbol": "FX:UK100",
+				"interval": "D",
+				"timezone": "Etc/UTC",
+				"theme": "White",
+				"style": "1",
+				"toolbar_bg": "#f1f3f6",
+				"allow_symbol_change": true,
+				"hideideas": true,
+				"show_popup_button": true,
+				"popup_width": "1000",
+				"popup_height": "650"
+			});
+		</script>
+		<!-- TradingView Widget END -->
+	</div>
+</body>
+</html>
+
+
+<style type="text/css">	
+	#left {
+		float: left;
+	}
+	#right {
+		float: right;
+	}
+</style>>
